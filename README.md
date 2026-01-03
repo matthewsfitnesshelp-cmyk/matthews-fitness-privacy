@@ -1,31 +1,33 @@
-Privacy Policy for Matthews Fitness  
-Effective Date: 12/27/2025
+# Privacy Policy for Matthews Fitness  
+**Effective Date: 12/27/2025**
 
 ---
 
 ## 1. Introduction
 Matthews Fitness ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how our mobile application collects, uses, and safeguards your information.
 
+Matthews Fitness is intended for **adults aged 18 and older** and is not designed for use by children.
+
 ---
 
 ## 2. Information We Collect
 To provide fitness and nutrition tracking services, Matthews Fitness may collect the following types of data:
 
-**Personal Information**  
-- Email address (collected via Google Sign-In)  
-- A unique Account ID (also referred to as a Support ID), automatically generated to identify your account  
+### Personal Information
+- Email address (collected via Google Sign-In)
+- A unique **Account ID** (also referred to as a **Support ID**), automatically generated to identify your account and assist with support and data deletion requests
 
-**Health & Fitness Data**  
-- Weight, height, date of birth, gender, activity levels  
+### Health & Fitness Data
+- Weight, height, date of birth, gender, and activity levels  
 - Nutrition and food logs  
 - Workout and activity history  
 
-**User Content**  
+### User Content
 - Photos of food or menus submitted for AI-based nutrition analysis  
-- Images are processed temporarily and are not used to train public or shared AI models  
+- Images are processed temporarily and are **not used to train public or shared AI models**
 
-**Device & App Information**  
-- Crash logs and diagnostic data used to improve app stability and performance  
+### Device & App Information
+- Crash logs, diagnostics, and performance data used to improve app stability and reliability
 
 ---
 
@@ -42,21 +44,21 @@ Your data is used to:
 ## 4. Third-Party Services
 We do not sell your personal data. Matthews Fitness uses trusted third-party services to operate core functionality:
 
-- **Google Firebase** – Authentication, secure data storage, and crash reporting  
+- **Google Firebase** – Authentication, secure cloud storage, and crash reporting  
 - **Google Gemini API** – Nutrition analysis, food recognition, and workout generation  
 - **OpenFoodFacts** – Barcode-based nutrition data lookup  
 
-All third-party services are used solely to support app functionality.
+These services are used strictly to support app functionality and user experience.
 
 ---
 
 ## 5. Health Disclaimer
-Matthews Fitness provides general health and fitness information for educational and informational purposes only. The app does not provide medical advice and is not a substitute for professional medical care. Always consult a qualified professional before making health-related decisions.
+Matthews Fitness provides general health and fitness information for educational and informational purposes only. The app does **not** provide medical advice and is not a substitute for professional medical care. Always consult a qualified healthcare professional before making health-related decisions.
 
 ---
 
 ## 6. Estimates & Results Disclaimer
-Nutrition values, activity guidance, and projected goal timelines are estimates based on user-provided information and available data. Individual results may vary, and outcomes are not guaranteed. Users are responsible for their own health decisions.
+Nutrition values, activity guidance, and projected goal timelines are estimates based on user-provided information and available data. Individual results may vary, and outcomes are not guaranteed. Users are solely responsible for their own health decisions.
 
 ---
 
@@ -65,11 +67,11 @@ We retain user data for as long as an account remains active.
 
 You may request deletion of your Matthews Fitness account and all associated data at any time.
 
-**How to request deletion:**
-- Email: **MatthewsFitnessHelp@gmail.com**
-- Subject line: **Account Deletion Request**
-- Include your **Matthews Fitness Account ID (Support ID)**, which can be found in the app under **Settings → About**
-- If available, you may also include the email address associated with your account
+### How to request deletion
+- Email: **MatthewsFitnessHelp@gmail.com**  
+- Subject line: **Account Deletion Request**  
+- Include your **Matthews Fitness Account ID (Support ID)**, which can be found in the app under **Settings → About**  
+- If available, you may also include the email address associated with your account  
 
 Deletion requests are processed within **30 days**.  
 Certain data may be retained temporarily where required for legal, security, or operational purposes.
@@ -78,5 +80,10 @@ Matthews Fitness does not sell user data.
 
 ---
 
-## 8. Changes to This Policy
+## 8. Children’s Privacy
+Matthews Fitness is intended for users **18 years of age and older**. We do not knowingly collect personal data from children. If we become aware that data has been collected from a user under 18, we will take steps to delete it promptly.
+
+---
+
+## 9. Changes to This Policy
 We may update this Privacy Policy from time to time. Continued use of the Matthews Fitness app after changes are posted constitutes acceptance of the updated policy.
