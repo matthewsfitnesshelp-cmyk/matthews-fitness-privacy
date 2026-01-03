@@ -1,39 +1,82 @@
-Privacy Policy for Matthews Fitness Effective Date: 12/27/2025
+Privacy Policy for Matthews Fitness  
+Effective Date: 12/27/2025
 
-1. Introduction Matthews Fitness ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how our mobile application collects, uses, and shares your personal information.
+---
 
-2. Information We Collect To provide our fitness and nutrition tracking services, we may collect the following types of data:
+## 1. Introduction
+Matthews Fitness ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how our mobile application collects, uses, and safeguards your information.
 
-Personal Information: Name and Email address (collected via Google Sign-In).
+---
 
-Health & Fitness Data: Weight, height, date of birth, gender, activity levels, nutrition logs, and workout history.
+## 2. Information We Collect
+To provide fitness and nutrition tracking services, Matthews Fitness may collect the following types of data:
 
-User Content: Photos you take of food or menus for AI analysis. These images are processed temporarily and are not used to train public AI models.
+**Personal Information**  
+- Email address (collected via Google Sign-In)  
+- A unique Account ID (also referred to as a Support ID), automatically generated to identify your account  
 
-Device Information: App crash logs and performance data to help us fix bugs.
+**Health & Fitness Data**  
+- Weight, height, date of birth, gender, activity levels  
+- Nutrition and food logs  
+- Workout and activity history  
 
-3. How We Use Your Data We use your data to:
+**User Content**  
+- Photos of food or menus submitted for AI-based nutrition analysis  
+- Images are processed temporarily and are not used to train public or shared AI models  
 
-Calculate daily calorie and macro targets.
+**Device & App Information**  
+- Crash logs and diagnostic data used to improve app stability and performance  
 
-Generate personalized workout plans and meal suggestions.
+---
 
-Sync your progress across devices using cloud storage.
+## 3. How We Use Your Data
+Your data is used to:
+- Calculate daily calorie and macro targets  
+- Generate personalized workout plans and nutrition insights  
+- Track progress and trends over time  
+- Sync data securely across devices  
+- Analyze food images using AI-assisted tools  
 
-Analyze food images using AI technology.
+---
 
-4. Third-Party Services We do not sell your data. However, we use trusted third-party services to operate the app:
+## 4. Third-Party Services
+We do not sell your personal data. Matthews Fitness uses trusted third-party services to operate core functionality:
 
-Google Firebase: Used for secure authentication, database storage, and crash reporting.
+- **Google Firebase** – Authentication, secure data storage, and crash reporting  
+- **Google Gemini API** – Nutrition analysis, food recognition, and workout generation  
+- **OpenFoodFacts** – Barcode-based nutrition data lookup  
 
-Google Gemini API: Used to process text and images for nutrition analysis and workout generation.
+All third-party services are used solely to support app functionality.
 
-OpenFoodFacts: Used to retrieve nutrition data from barcodes.
+---
 
-5. Health Disclaimer Matthews Fitness provides general health and fitness information for educational purposes only. It does not provide medical advice and is not a substitute for professional care. Always consult a qualified professional regarding medical or health-related decisions.
+## 5. Health Disclaimer
+Matthews Fitness provides general health and fitness information for educational and informational purposes only. The app does not provide medical advice and is not a substitute for professional medical care. Always consult a qualified professional before making health-related decisions.
 
-6. Estimates & Results Nutrition values, activity guidance, and goal timelines are estimates based on user-provided information and available data. Results are not guaranteed and may vary by individual. By using this app, you acknowledge that you are responsible for your own health decisions.
+---
 
-7. Data Retention & Deletion We retain your data as long as your account is active. You may request the complete deletion of your account and all associated data at any time by contacting us at: Email: MatthewsFitnessHelp@gmail.com
+## 6. Estimates & Results Disclaimer
+Nutrition values, activity guidance, and projected goal timelines are estimates based on user-provided information and available data. Individual results may vary, and outcomes are not guaranteed. Users are responsible for their own health decisions.
 
-8. Changes to This Policy We may update this policy from time to time. Your continued use of the app constitutes acceptance of any changes.
+---
+
+## 7. Data Retention & Account Deletion
+We retain user data for as long as an account remains active.
+
+You may request deletion of your Matthews Fitness account and all associated data at any time.
+
+**How to request deletion:**
+- Email: **MatthewsFitnessHelp@gmail.com**
+- Subject line: **Account Deletion Request**
+- Include your **Matthews Fitness Account ID (Support ID)**, which can be found in the app under **Settings → About**
+- If available, you may also include the email address associated with your account
+
+Deletion requests are processed within **30 days**.  
+Certain data may be retained temporarily where required for legal, security, or operational purposes.
+
+Matthews Fitness does not sell user data.
+
+---
+
+## 8. Changes to This Policy
+We may update this Privacy Policy from time to time. Continued use of the Matthews Fitness app after changes are posted constitutes acceptance of the updated policy.
