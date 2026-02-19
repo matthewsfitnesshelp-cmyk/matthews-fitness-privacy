@@ -7,33 +7,23 @@
     <meta name="description" content="Terms of Service and account deletion information for the Matthews Fitness mobile application.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
+            --bg: #193c50;
             --blue: #448AFF;
-            --blue-glow: rgba(68, 138, 255, 0.15);
-            --dark: #0D1117;
-            --surface: #161B22;
-            --surface-2: #1C2333;
-            --text: #E6EDF3;
-            --text-muted: rgba(230, 237, 243, 0.5);
-            --text-body: rgba(230, 237, 243, 0.72);
-            --border: rgba(68, 138, 255, 0.08);
+            --text: #E8EFF5;
+            --text-muted: rgba(232, 239, 245, 0.5);
+            --text-body: rgba(232, 239, 245, 0.7);
+            --border: rgba(255, 255, 255, 0.06);
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Outfit', sans-serif;
-            background: var(--dark);
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
             color: var(--text);
             min-height: 100vh;
             line-height: 1.7;
-        }
-        body::before {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background: radial-gradient(ellipse at 25% 0%, rgba(68, 138, 255, 0.05) 0%, transparent 55%);
-            pointer-events: none;
         }
         .back {
             position: fixed;
@@ -44,83 +34,36 @@
             text-decoration: none;
             font-size: 14px;
             font-weight: 500;
-            display: flex;
-            align-items: center;
-            gap: 6px;
             transition: color 0.2s;
         }
         .back:hover { color: var(--blue); }
         .wrapper {
-            position: relative;
-            z-index: 1;
-            max-width: 680px;
+            max-width: 660px;
             margin: 0 auto;
             padding: 80px 28px 60px;
         }
         .header {
             text-align: center;
-            margin-bottom: 48px;
-            padding-bottom: 32px;
+            margin-bottom: 44px;
+            padding-bottom: 28px;
             border-bottom: 1px solid var(--border);
         }
-        .header h1 {
-            font-weight: 800;
-            font-size: 32px;
-            letter-spacing: -0.5px;
-            margin-bottom: 12px;
-        }
-        .meta {
-            font-size: 13px;
-            color: var(--text-muted);
-        }
-        .meta span {
-            display: inline-block;
-            margin: 0 8px;
-            opacity: 0.3;
-        }
-        h2 {
-            font-weight: 700;
-            font-size: 20px;
-            margin-top: 40px;
-            margin-bottom: 12px;
-            color: var(--text);
-        }
-        h3 {
-            font-weight: 600;
-            font-size: 16px;
-            margin-top: 24px;
-            margin-bottom: 8px;
-            color: rgba(230, 237, 243, 0.85);
-        }
-        p, li {
-            font-size: 15px;
-            color: var(--text-body);
-            line-height: 1.75;
-        }
-        p { margin-bottom: 14px; }
-        ul, ol {
-            margin: 8px 0 16px 20px;
-        }
-        li {
-            margin-bottom: 6px;
-            padding-left: 4px;
-        }
+        .header h1 { font-size: 30px; font-weight: 700; margin-bottom: 10px; }
+        .meta { font-size: 13px; color: var(--text-muted); }
+        .meta span { margin: 0 8px; opacity: 0.3; }
+        h2 { font-size: 19px; font-weight: 700; margin-top: 36px; margin-bottom: 10px; }
+        h3 { font-size: 15px; font-weight: 600; margin-top: 20px; margin-bottom: 6px; color: rgba(232, 239, 245, 0.85); }
+        p, li { font-size: 14.5px; color: var(--text-body); line-height: 1.75; }
+        p { margin-bottom: 12px; }
+        ul, ol { margin: 6px 0 14px 20px; }
+        li { margin-bottom: 5px; padding-left: 4px; }
         li::marker { color: var(--blue); }
         strong { color: var(--text); font-weight: 600; }
         a { color: var(--blue); text-decoration: none; }
         a:hover { text-decoration: underline; }
-        .section {
-            padding: 20px 0;
-            border-bottom: 1px solid var(--border);
-        }
+        .section { padding: 18px 0; border-bottom: 1px solid var(--border); }
         .section:last-child { border-bottom: none; }
-        .footer {
-            text-align: center;
-            padding-top: 32px;
-            margin-top: 16px;
-            font-size: 12px;
-            color: rgba(230, 237, 243, 0.2);
-        }
+        .footer { text-align: center; padding-top: 28px; margin-top: 12px; font-size: 12px; color: rgba(232, 239, 245, 0.2); }
     </style>
 </head>
 <body>
@@ -133,7 +76,7 @@
 
         <div class="section">
             <h2>1. Acceptance of Terms</h2>
-            <p>By downloading, installing, or using the Matthews Fitness mobile application ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.</p>
+            <p>By downloading, installing, or using the Matthews Fitness mobile application ("the App"), you agree to be bound by these Terms of Service. If you do not agree, do not use the App.</p>
             <p>Matthews Fitness is intended for <strong>adults aged 18 and older</strong>.</p>
         </div>
 
@@ -145,7 +88,7 @@
 
         <div class="section">
             <h2>3. User Accounts</h2>
-            <p>You must create an account to use Matthews Fitness. By creating an account, you agree to provide accurate information and keep your account credentials secure. You are responsible for all activity that occurs under your account.</p>
+            <p>You must create an account to use Matthews Fitness. You agree to provide accurate information and keep your credentials secure. You are responsible for all activity under your account.</p>
             <p>We reserve the right to suspend or terminate accounts that violate these Terms.</p>
         </div>
 
@@ -153,9 +96,8 @@
             <h2>4. Subscriptions &amp; Billing</h2>
             <ul>
                 <li>Premium subscriptions are billed through <strong>Google Play Billing</strong></li>
-                <li>Subscription pricing is displayed within the App and on the Google Play Store</li>
                 <li>Subscriptions auto-renew unless cancelled before the end of the billing period</li>
-                <li>You may manage or cancel your subscription at any time through your Google Play account</li>
+                <li>Manage or cancel your subscription at any time through your Google Play account</li>
                 <li>Refunds are handled according to Google Play's refund policies</li>
             </ul>
         </div>
@@ -163,18 +105,17 @@
         <div class="section">
             <h2>5. Health &amp; Fitness Disclaimer</h2>
             <p>Matthews Fitness provides general health and fitness information for <strong>educational and informational purposes only</strong>. The App does <strong>not</strong> provide medical advice, diagnosis, or treatment.</p>
-            <p>AI-generated content — including nutrition estimates, coaching evaluations, workout suggestions, and meal plans — may not be 100% accurate. Always verify important health information with qualified professionals.</p>
-            <p>Before starting any diet, exercise, or nutrition program, consult with a qualified healthcare provider. By using this App, you acknowledge that you are solely responsible for your health decisions.</p>
+            <p>AI-generated content may not be 100% accurate. Consult a qualified healthcare provider before starting any diet, exercise, or nutrition program.</p>
         </div>
 
         <div class="section">
             <h2>6. Estimates &amp; Accuracy</h2>
-            <p>Nutrition values, calorie calculations, macro targets, and projected goal timelines are <strong>estimates</strong> based on user-provided information, AI analysis, and available data sources. Individual results may vary, and outcomes are not guaranteed.</p>
+            <p>Nutrition values, calorie calculations, macro targets, and projected goal timelines are <strong>estimates</strong>. Individual results may vary, and outcomes are not guaranteed.</p>
         </div>
 
         <div class="section">
             <h2>7. User Content</h2>
-            <p>You retain ownership of all data you input into the App, including food logs, weight entries, workout history, and uploaded photos. By using the App, you grant us a limited license to process this data solely to provide the App's services.</p>
+            <p>You retain ownership of all data you input into the App. By using the App, you grant us a limited license to process this data solely to provide the App's services.</p>
             <p>Photos submitted for AI analysis are processed temporarily and are <strong>not stored permanently, shared with third parties, or used to train AI models</strong>.</p>
         </div>
 
@@ -192,21 +133,19 @@
 
         <div class="section">
             <h2>9. Limitation of Liability</h2>
-            <p>To the maximum extent permitted by law, Matthews Fitness and its developers shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to health issues, injuries, loss of data, or loss of profits arising from your use of the App.</p>
+            <p>To the maximum extent permitted by law, Matthews Fitness and its developers shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the App.</p>
             <p>The App is provided "as is" and "as available" without warranties of any kind.</p>
         </div>
 
         <div class="section">
             <h2>10. Account &amp; Data Deletion</h2>
             <p>You may request deletion of your Matthews Fitness account and all associated data at any time.</p>
-
             <h3>How to request deletion</h3>
             <ol>
                 <li><strong>In-app (recommended):</strong> Go to <strong>Settings → About Us → Delete Account</strong></li>
                 <li><strong>By email:</strong> Send a request to <a href="mailto:MatthewsFitnessHelp@gmail.com">MatthewsFitnessHelp@gmail.com</a> with the subject line <strong>"Account Deletion Request"</strong></li>
             </ol>
-            <p>Include your <strong>Matthews Fitness Account ID (Support ID)</strong>, which can be found under <strong>Settings → About Us</strong>.</p>
-
+            <p>Include your <strong>Account ID (Support ID)</strong> found under <strong>Settings → About Us</strong>.</p>
             <h3>Data that will be deleted</h3>
             <ul>
                 <li>User account and profile information</li>
@@ -217,18 +156,16 @@
                 <li>User preferences, settings, and subscription status</li>
                 <li>Any photos or images previously submitted for AI analysis</li>
             </ul>
-
-            <p>Deletion requests are processed within <strong>30 days</strong>. Certain data may be retained temporarily for legal, security, or operational purposes as required by law.</p>
+            <p>Deletion requests are processed within <strong>30 days</strong>. Certain data may be retained temporarily for legal, security, or operational purposes.</p>
         </div>
 
         <div class="section">
             <h2>11. Changes to These Terms</h2>
-            <p>We may update these Terms from time to time. Changes will be reflected by updating the date above. Continued use of the App after changes are posted constitutes acceptance of the updated Terms.</p>
+            <p>We may update these Terms from time to time. Continued use of the App after changes are posted constitutes acceptance.</p>
         </div>
 
         <div class="section">
             <h2>12. Contact Us</h2>
-            <p>If you have questions about these Terms, contact us at:</p>
             <p><a href="mailto:MatthewsFitnessHelp@gmail.com">MatthewsFitnessHelp@gmail.com</a></p>
         </div>
 
